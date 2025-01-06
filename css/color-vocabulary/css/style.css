@@ -1,0 +1,50 @@
+h3 {
+    font-size: 20px;
+    font-weight: normal;
+
+    &[value="red"] {
+        color: red;
+    }
+
+    &[value="blue"] {
+        color: blue;
+    }
+
+    &[value="yellow"] {
+        color: yellow;
+    }
+
+    &[value="green"] {
+        color: green;
+    }
+
+    &[value="brown"] {
+        color: brown;
+    }
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    
+    &[value="red"] {
+        background: red;
+    }
+    
+    &[value="blue"] {
+        background: blue;
+    }
+    
+    &[value="yellow"] {
+        background: yellow;
+    }
+    
+    &[value="green"] {
+        background: green;
+    }
+    
+    &[value="brown"] {
+        background: brown;
+    }
+}
+

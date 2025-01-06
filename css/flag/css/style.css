@@ -1,0 +1,28 @@
+div {
+    .flag-2 {
+        width: 500px;
+        height: 100px;
+        background-color: #002868;
+
+        position: relative;
+
+        .circle {
+            width: 75px;
+            height: 75px;
+            background: white;
+
+            position: absolute;
+            top: 15px;
+            left: 200px;
+
+            border-radius: 50%;
+        }
+    }
+
+    .flag-1,
+    .flag-3 {
+        width: 500px;
+        height: 100px;
+        background: #CE1126;
+    }
+}
